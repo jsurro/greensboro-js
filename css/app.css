@@ -1,0 +1,233 @@
+
+body {
+		font-family: gill-sans-nova,sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+/*
+		header
+*/
+
+header{
+	background-color: #326F71;
+	color: #ffffff;
+	align-content: center;
+	font-family: gill-sans-nova,sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	padding: 1rem 0;
+}
+
+
+header a {
+	color: white;
+}
+
+a:hover {
+    color: #999999;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: gill-sans-nova,sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #000000;
+text-align: center;
+}
+
+
+
+p {
+	font-family: gill-sans-nova,sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.menu {
+	font-size: 4rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 1rem 1;
+	text-transform: ;
+}
+
+/*
+		hero
+*/
+
+.txtover {
+	position: relative;
+	color: #ffffff;
+	font-size: 5rem 0;
+}
+
+.txtover figcaption {
+	position:absolute; top:0; left:0;
+	font-size: 5rem;
+	padding-left: 1.5rem;
+}
+
+/*
+		reservations
+*/
+
+.reservation{
+	padding: 3rem 0;
+
+}
+
+.reservation h1{
+	color:#326F71;
+	background-color: transparent;
+	font-size: 3.5rem;
+	text-align: center;
+	margin: 0 0 2rem 0;
+}
+
+.reservation thead {
+	background-color: gray;
+	border: 0;
+}
+
+.reservation th {
+	color: #326F71;
+}
+.reservation .button {
+	 	background-color:  #326F71;
+	border-radius: 1rem;
+	color: #ffffff;
+
+}
+
+.reservation .button:hover {
+	 background-color: #999999;
+}
+
+
+.reservation p{
+	font-size: 1rem;
+	text-align: center;
+}
+
+.reveal {
+	background-color: #326F71;
+	color: white;
+}
+
+.reveal h1, .reveal h2{
+	color: white;
+}
+
+.orbit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+/*
+		features
+*/
+
+.Features-Header{
+	background-color: transparent;
+	color: #326F71;
+	font-size: 3.5rem;
+	text-align: center;
+
+	font-family: gill-sans-nova,sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+ .amenities-h {
+ 	font-size: 2.5rem;
+ 	background-color: transparent;
+	color: gray;
+	text-align: center;
+}
+
+.amenities .menu{
+	margin-bottom: 3rem;
+	color: black;
+	text-transform: initial;
+}
+
+button {
+	background-color:  #326F71;
+	border-radius: 1rem;
+	color: #ffffff;
+	font-size: .7rem 0;
+	padding: 0.25em .5em;
+	vertical-align: middle;
+
+}
+
+button:hover {
+	 background-color: #999999;
+}
+
+.amenities img{
+	padding: 2rem 0;
+	color: #326F71;
+}
+
+.entertainment h3{
+	background-color: transparent;
+	color: gray;
+	font-size: 2.5rem;
+	padding-top: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.entertainment h4{
+	color: black;
+	font-size: 2rem;
+}
+
+li {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+
+/*
+		reviews
+*/
+
+.reviews-header{
+	padding-top: 3rem;
+	text-align: center;
+	background-color: transparent;
+	color: #326F71;
+	font-size: 3.5rem;
+}
+
+.rating {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
+.review p{
+	padding-top: 1.5rem;
+	text-align: left;
+}
+.review-textbox textarea {
+	padding-left: 2rem 0;
+}
+
+
+footer {
+	background-color: #326F71;
+	color: #ffffff;
+	font-size: 2rem;
+	padding: 3rem 0;
+	text-align: center;
+}

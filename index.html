@@ -1,0 +1,325 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greensboro Hotel</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vkb0qwp.css">
+    <script src="https://kit.fontawesome.com/7a44c0547b.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+<!-- -Logo
+    -Menu Options
+-->
+
+<header>
+  <section class="header" data-magellan>
+
+  <div class="grid-container">
+  <div class="grid-x grid-margin-x align-middle">
+  <div class="logo medium-3">
+  <img src="img/greensboro-logo.png" class="logo" alt="Logo">
+ </div>
+
+  <div class="cell medium-9">
+  <ul class="menu align-right">
+  <ul class="menu">
+  <li><a href="#Reservations">Reservations</a></li>
+  <li><a href="#Features">Features</a></li>
+  <li><a href="#Reviews">Reviews</a></li>
+
+</ul>
+</ul>
+</ul>
+</div>
+</div>
+</div>
+</header>
+
+</section>
+
+
+    <section class="hero">
+      <figure class="txtover"> 
+      <img src="img/hotel-picture.jpg" alt="hero">
+      <figcaption>Welcome to our hotel!</figcaption>
+    </figure>
+  </section>
+
+    <!--
+
+      reservations
+    Grid with locations and features
+    -->
+
+    <!--
+    - datepicker widget (be careful when editing)
+    - displays two fields in two columns
+    - place this inside one of your page sections
+    -->
+
+     <section id="reservations" class="reservations" data-magellan-target="reservations"> 
+      </section>
+
+    <section class="reservation">
+        <h1>
+      Reservations
+    </h1>
+
+    <p>
+      Only a few left, so get yours while you can!
+    </p>
+
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-6">
+   <th class="cell small-6">Check in:
+
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell medium-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell medium-6 text-center">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th> 
+        </tr>        
+      </thead>
+    </table>
+        </div>
+        <div class="cell medium-6">
+ <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hotel-bed-1.jpg" alt="room-1">
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hotel-bed-2.jpg" alt="room-2">
+        </figure>
+      </li>
+
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hotel-bed-3.jpg" alt="room-3">
+        </figure>
+      </li>
+
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hotel-bed-4.jpg" alt="room4">
+        </figure>
+
+      </li>
+    </ul>
+  </div>
+
+  <nav class="orbit-bullets">
+    <button class="is-active" data-slide="0">
+      <span class="show-for-sr">First slide details.</span>
+      <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+    </button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+  </nav>
+</div> 
+        
+</div>
+
+
+  </div>
+</div>
+</section>
+
+ <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell large-7">
+          <div class="overlay">
+            <h1>Success</h1>
+            <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+
+   
+
+
+    <!--
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+    -->
+
+  
+
+     <!--
+
+
+features list and icons
+
+-->
+
+
+<section  id="Features" class="features align-center" data-magellan-target="Features">
+</section>
+<h1 class="Features-Header">
+  Features
+</h1>
+ <h1 class="amenities-h">
+  Amenities
+  </h2>
+</div>
+</div>
+</div>
+
+<section class="amenities">
+<div class="grid-container">
+<div class="grid-x grid-margin-x grid-margin-y">
+
+<div class="cell medium-4 medium-offset-2">
+  <h3>In-Room Amenities</h3>
+    <img src="img/tv.jpeg" alt="tv">
+    <h4><button>Television</button></h4>
+      <img src="img/hair.jpg" alt="hair">
+        <h4><button>Hair Styling</button></h4>
+</div>
+
+<div class="cell medium-4">
+    <h3>Out-Room Amenities</h3>
+    <img src="img/spa.jpg" alt="Spa">
+     <h4><button>Spa</button></h4>
+  <img src="img/pool-picture.jpg" alt="pool">
+    <h4><button>Pool</button></h4>
+
+</div>
+</div>
+</div>
+
+<section class="entertainment">
+  <h3>Entertainment</h3>
+  <div class="grid-container">
+<div class="grid-x grid-margin-x grid-margin-y">
+
+<div class="cell medium-4 medium-offset-2">
+  <img src="img/live-enter.jpg" alt="live">
+  <h4><button>Live</button></h4>
+</div>
+
+<div  class="cell medium-4">
+  <img src="img/casino.jpg" alt="Casino">
+  <h4><button>Casino</button></h4>
+
+</div>
+</div>
+</div>
+</section>
+</section>
+
+</section>
+</section>
+
+
+
+<section  id="Reviews" class="reviews-header" data-magellan-target="Reviews">
+</section>
+
+<section class="review">
+<h1 class="reviews-header">
+ Reviews
+</h1>
+<div class="grid-container">
+<div class="grid-x grid-margin-x grid-margin-y align-middle">
+
+<div class="cell">
+
+<img src="img/4.5-stars.jpg" class="Rating" alt="rating"> 
+
+<p>
+Write a Review!
+</p>
+<textarea id="review-textbox" class="review-textbox">
+</textarea>
+</div>
+</div>
+</div>
+</section>
+
+<!--
+  footer starts
+-->
+
+<footer>
+      <section class="footer">
+  <div class="grid-container">
+  <div class="grid-x align-middle grid-margin-x">
+  <div class="cell medium-3">
+   <p>
+    gb@hotel.com
+    (123)456-7890
+  </p>
+</div>
+
+  <div class="cell medium-3">
+  <p>
+    © Greensboro Hotel
+  2022
+</p>
+</div>
+
+
+  <div class="cell medium-3">
+ <p>
+123 Name Street
+Greensboro, VT
+</p>
+</div>
+
+<div class="cell medium-3">
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-facebook"></i>
+ <i class="fa-brands fa-instagram"></i>
+</div>
+</div>
+</div>
+</div>
+    </div>
+    </div>
+     </footer>
+</section>    
+
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
